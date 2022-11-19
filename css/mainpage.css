@@ -3,7 +3,7 @@ Make the font larger too.*/
 body {
 
 	
-	background-image: url("images/this.jpg");
+	background-image: url("../images/this.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-weight: bold;
