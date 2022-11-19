@@ -1,0 +1,145 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body {
+
+	
+	background-image: url("/images/this.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	
+
+}
+
+
+
+
+/*Make the h1 heading bigger with a bold font*/
+h1 {
+	color: white;
+	font-size: 3em;
+	font-weight: bold;
+	padding-left: 20px;
+	line-height: 2;
+}
+
+
+.active {
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.active a {
+	text-decoration: none;
+	;
+}
+
+
+
+/*Improve the spacing for paragraphs AND headings*/
+p,
+h2 {
+	padding: 10px;
+	opacity: 1;
+}
+
+
+
+
+
+
+.nav_bar {
+	/* the seperate navigation elements */
+	color: #000000;
+	text-decoration: none;
+	font-weight: none;
+	font-size: 17px;
+	font-family: 'Oxygen', sans-serif;
+	padding-left: 80px;
+	
+	
+}
+
+a:hover {
+	/* when you hover navigation bar*/
+	border-bottom: 1px solid green;
+}
+
+/*Change the styling for all of the list 
+items in the nav section*/
+header {
+	background-color: #333;
+
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	padding: 0;
+
+}
+
+
+.nav_links {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+	text-decoration: none;
+	padding-right: 80px;
+
+}
+
+nav li {
+
+	align-self: flex-end;
+
+}
+
+.nav_links a:visited {
+	color: white;
+}
+
+/*Added this so the links stay the same color*/
+a:visited {
+	color: black;
+}
+
+.skip a {
+	background: white;
+	left: 0;
+	padding: 6px;
+	position: absolute;
+	top: -40px;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+}
+
+a {
+	color: #a03a14;
+}
+
+.skip a:focus {
+	top: 0;
+}
+
+
+
+.text-block {
+	background-color: rgba(255, 255, 255, .8);
+	border: 10px solid black;
+	padding: 30px;
+	grid-column: 3/4;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 400px auto 550px;
+}
+
+a {
+	text-decoration: none;
+}

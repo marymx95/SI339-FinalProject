@@ -1,0 +1,169 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body {
+
+	font-size: 150%;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: bold;
+
+}
+
+
+
+
+/*Make the h1 heading bigger with a bold font*/
+h1 {
+
+	font-size: 2em;
+	font-weight: bold;
+	align-self: flex-start;
+}
+
+h2 {
+	font-size: 40px
+}
+
+header>h1 {
+	color: white;
+	line-height: 2;
+}
+
+h2,
+h3 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.active {
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.active a {
+	text-decoration: none;
+	;
+}
+
+
+
+/*Improve the spacing for paragraphs AND headings*/
+p,
+h2 {
+	padding: 10px;
+	opacity: 1;
+}
+
+
+
+
+
+
+.nav_bar {
+	/* the seperate navigation elements */
+	color: #000000;
+	text-decoration: none;
+	font-weight: none;
+	font-size: 17px;
+	font-family: 'Oxygen', sans-serif;
+	padding-right: 30px;
+}
+
+a:hover {
+	/* when you hover navigation bar*/
+	border-bottom: 1px solid green;
+}
+
+/*Change the styling for all of the list 
+items in the nav section*/
+header {
+	background-color: #333;
+
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	padding: 0;
+
+}
+
+
+.nav_links {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+	text-decoration: none;
+}
+
+nav li {
+
+	align-self: flex-end
+}
+
+/*Added this so the links stay the same color*/
+a:visited {
+	color: white;
+}
+
+.skip a {
+	background: white;
+	left: 0;
+	padding: 6px;
+	position: absolute;
+	top: -40px;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+}
+
+a {
+	color: white;
+}
+
+.skip a:focus {
+	top: 0;
+}
+
+
+
+.text-block {
+	background-color: rgba(255, 255, 255, .8);
+	border: 10px solid black;
+	padding: 30px;
+	grid-column: 3/4;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 400px auto 550px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.resume {
+
+	height: 1400px;
+	border: 1px black solid;
+}
+
+.main {
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+img {
+	height: 175px;
+	width: auto;
+	border: 3px solid blue;
+	padding: 25px;
+	border-radius: 20px;
+	margin: 10px;
+}
