@@ -13,7 +13,7 @@
 	<link rel="icon" href="images/favicon.ico">
 	<!-- Link to the reset file -->
 	<link rel="stylesheet" href="css/html5reset.css">
-	
+
 	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" href="css/mainpage.css">
 	<title>About Me</title>
@@ -22,7 +22,7 @@
 <!-- All of the visible code in the page belongs in the body tag -->
 
 <body>
-
+	<div class="skip"><a href="#main">Skip to content</a></div>
 	<!-- Header is a sematic tag page that aids readability -->
 	<header>
 		<h1>Mary Musallam</h1>
@@ -32,7 +32,7 @@
 			<ul class="nav_links">
 				<li class="nav_bar active"><a href="index.html">Home</a></li>
 				<li class="nav_bar"><a href="aboutme.html">About Me</a></li>
-				<li class="nav_bar"><a href="cv.html">CV</a></li>
+				<li class="nav_bar"><a href="experience.html">Experience</a></li>
 
 			</ul>
 		</nav>
@@ -41,25 +41,27 @@
 	</header>
 
 	<!-- Every page should have a main tag for accessibility -->
-	<main class="container">
-		<div class="text-block">
-			<p>I am a senior at
-				University of Michigan majoring in Computer Science. I will graduate with my undergraduate degree in May
-				of 2023. </p>
+	<main id="main">
+		<img class="mypic" src="/images/mypic.JPG" alt ="picture of me" width="300px">
+		<div class="container">
+			<div class="text-block">
+				<p>I am a senior at
+					University of Michigan majoring in Computer Science. I will graduate with my undergraduate degree in
+					May
+					of 2023. </p>
 
-			<!-- Make sure your anchor tags have a link (href) and a clickable component -->
-			<p>
-				I received my Associates Degree in Science and Engineering from <a
-					href="https://www.schoolcraft.edu">Schoolcraft College
-				</a> </p>
+				<!-- Make sure your anchor tags have a link (href) and a clickable component -->
+				<p>
+					I received my Associates Degree in Science and Engineering from <a
+						href="https://www.schoolcraft.edu">Schoolcraft College
+					</a> </p>
+			</div>
+
 		</div>
 
 	</main>
 
-	<!-- Footer is a sematic tag page that aids readability -->
-	<footer>
 
-	</footer>
 </body>
 
 </html>
